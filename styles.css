@@ -356,4 +356,14 @@ footer {
   nav .nav-items.active {
     display: flex;
   }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* التصميم الخاص بالجوال والشاشات التي يقل عرضها عن 768 بكسل */
+@media (max-width: 768px) {
+    .container {
+        width: 100%; /* يجعل العنصر يملأ الشاشة بالكامل */
+    }
 }
